@@ -524,9 +524,9 @@
 }
 
 .left-img {
-    width: 198px;
+    width: 150px;
     margin: auto;
-    text-align: right;
+    text-align: center;
 }
 
 .left-img img {
@@ -587,6 +587,7 @@
     border-radius: 10px;
     transition: 0.5s;
     padding: 15px;
+    text-align: center;
 }
 
 #our-team {
