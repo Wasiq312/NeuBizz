@@ -653,7 +653,7 @@
 #product-section {
     display: flex;
     flex-grow: none !important;
-    align-items: flex-end;
+    align-items: center;
     margin: 35px auto 30px auto;
     flex-direction: column;
     width: 85%;
