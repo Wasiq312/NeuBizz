@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--main-text-color);
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 *::selection {
@@ -127,8 +128,9 @@ nav {
     font-size: 46px;
     color: var(--main-bg-color);
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 700;
+    line-height: 50px;
 }
 
 .banner-text p {
@@ -633,7 +635,6 @@ nav {
     font-size: 16px;
     color: var(--secondary-text-color);
     padding: 5px 0px;
-    /* font-family: var(--secondary-font-family); */
 }
 
 
@@ -701,8 +702,129 @@ nav {
     border-radius: 10px;
 }
 
+.con-p {
+    width: 78%;
+    margin: auto;
+}
+
 
 /* /Our-team */
 
 
 /* /ABOUT US CSS */
+
+
+/* Services CSS */
+
+#products {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.pro-head {
+    text-align: center;
+}
+
+.pro-head h2 {
+    color: var(--main-bg-color);
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.pro-head p {
+    color: var(--secondary-text-color);
+    font-size: 19px;
+}
+
+#product-section {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin: 95px 0px 60px 0px;
+}
+
+.product-box img {
+    width: 25%;
+}
+
+.product-box {
+    width: 30%;
+    margin: auto;
+}
+
+.product-box h4 {
+    font-size: 20px;
+    color: black;
+    padding: 20px 0px 10px 0px;
+    font-weight: 500;
+}
+
+.product-box p {
+    font-size: 16px;
+    color: var(--secondary-text-color);
+    padding: 1px 0px;
+    font-weight: 400;
+}
+
+.row {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+#best-deal {
+    width: 100%;
+    background-color: var(--main-bg-color);
+    padding: 40px 0px;
+}
+
+.best-text-area {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-text {
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    border-right: 1px solid !important;
+}
+
+.best-text {
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    border-right: 1px solid !important;
+}
+
+.para-text {
+    padding-left: 19px;
+}
+
+.best-text-area button {
+    margin-top: 0px !important;
+}
+
+#best-section {
+    width: 100%;
+    padding: 90px 0 20px 0;
+    margin: auto;
+    text-align: center;
+}
+
+#best-section h1 {
+    font-size: 43px;
+    color: var(--main-bg-color);
+    padding: 20px 0px 20px 0px;
+}
+
+#best-section p {
+    font-size: 16px;
+    color: #6c757d;
+    padding: 5px 0px 2px 0px;
+}
+
+
+/* /Services CSS */

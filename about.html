@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" media="only screen and (min-width:0px) and (max-width:480px)" href="assets/css/media.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                         <a href="about.html">
                             <li class="active">ABOUT US</li>
                         </a>
-                        <a href="#">
+                        <a href="services.html">
                             <li>SERVICES</li>
                         </a>
                         <a href="##">
@@ -77,14 +77,14 @@
 
     <!-- Industry leader -->
     <div id="industry">
-        <div class="indutry-container">
-            <div class="industry-text">
+        <div class="indutry-container" style="overflow-x:hidden">
+            <div class="industry-text" data-aos="fade-right" data-aos-offset="140">
                 <h3>About us</h3>
                 <h1>We are a Industry leader <br>in technical and <br>consulting services</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eligendi fugiat
                     labore libero molestias provident quae quaerat quis! Aspernatur at enim excepturi facere in non reiciendis soluta totam, voluptas voluptate!</p>
             </div>
-            <div class="industry-img">
+            <div class="industry-img" data-aos="fade-left" data-aos-offset="140">
                 <img src="assets/images/intro/img-woman-1.jpg">
             </div>
         </div>
@@ -93,13 +93,13 @@
 
     <!-- Mission-section -->
     <section>
-        <div id="mission-section">
-            <div class="mission-left-img">
+        <div id="mission-section" style="overflow-x: hidden;">
+            <div class="mission-left-img" data-aos="fade-right" data-aos-offset="140">
                 <div class="left-img">
                     <img src="assets/images/services/7.svg">
                 </div>
             </div>
-            <div class="mission-right-img">
+            <div class="mission-right-img" data-aos="fade-left" data-aos-offset="140">
                 <div class="right-boxes">
                     <div class="img">
                         <img src="assets/images/services/4.svg">
@@ -140,22 +140,22 @@
                 <p>We are ready to grow with your business.</p>
             </div>
             <div class="our-team-img">
-                <div class="img-container">
+                <div class="img-container" data-aos="fade-up" data-aos-offset="160">
                     <img src="assets/images/team/img1.jpg">
                     <h3>James Rally</h3>
                     <h5>CEO</h5>
                 </div>
-                <div class="img-container">
+                <div class="img-container" data-aos="fade-up" data-aos-offset="160">
                     <img src="assets/images/team/img2.jpg">
                     <h3>Kristen Viller</h3>
                     <h5>TECH DIRECTOR</h5>
                 </div>
-                <div class="img-container">
+                <div class="img-container" data-aos="fade-up" data-aos-offset="160">
                     <img src="assets/images/team/img3.jpg">
                     <h3>Johanna Care</h3>
                     <h5>HR DIRECTOR</h5>
                 </div>
-                <div class="img-container">
+                <div class="img-container" data-aos="fade-up" data-aos-offset="160">
                     <img src="assets/images/team/img4.jpg">
                     <h3>Bruce Willamson</h3>
                     <h5>FINANCE DIRECTOR</h5>
@@ -166,7 +166,7 @@
     <!-- /Our-team -->
 
     <section>
-        <div id="solution-section">
+        <div id="solution-section" data-aos="fade-up" data-aos-offset="140">
             <h1>Get Our Best Solutions</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod dolor <br>sit amet, consectetur adipiscing elit, sed do eiusmod</p>
             <button class="btn">Read The Story</button>
@@ -206,9 +206,9 @@
                     <div class="site-links" id="f-box">
                         <h3>Site links</h3>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
                             <li><a href="#">Blogs</a></li>
                             <li><a href="#">Career</a></li>
                         </ul>
@@ -242,6 +242,14 @@
     </div>
 
     <script src="assets/java/main.js"></script>
+    <!-- AOS Animation  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1100,
+        });
+    </script>
+    <!-- /AOS Animation  -->
 </body>
 
 </html>
