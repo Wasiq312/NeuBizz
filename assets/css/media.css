@@ -735,3 +735,169 @@
 
 
 /* /Services Media*/
+
+
+/* Blog-media */
+
+#blog-body {
+    width: 85%;
+    margin: auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pages-option {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-body-side-one {
+    width: 100%;
+    margin-right: none;
+    padding: none;
+}
+
+.blog-body-side-two {
+    width: 100%;
+    padding: none;
+}
+
+.pages-numbers h4 {
+    font-size: 13px;
+    color: rgb(31, 31, 31);
+    font-weight: 400;
+    padding: 18px 0px;
+}
+
+.front {
+    font-size: 10px;
+    margin-left: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 25px;
+    color: var(--secondary-text-color);
+    padding: 8px 30px;
+    margin: 8px 0px;
+}
+
+.date {
+    font-size: 10px;
+    color: var(--secondary-text-color);
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.blog-text h1 {
+    color: black;
+    padding: 20px 0 15px 0;
+    font-size: 22px;
+    font-weight: 500;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.blog-text p {
+    font-size: 14px;
+    color: rgb(27, 27, 27);
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 28px;
+    border-bottom: 1px dotted lightgray;
+}
+
+.pages-change div {
+    padding: 2px 9.1px;
+    border: 1px solid rgb(223, 222, 222);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pages-option {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 30px 0px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categories h3 {
+    color: black;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.latest-post>h3 {
+    color: black;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/* /Blog-media */
+
+
+/* Contact Media */
+
+#contact-icon {
+    width: 85%;
+    margin: auto;
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+}
+
+.icon-contact {
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.con-para {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.messege-icon {
+    margin: 25px 0px;
+}
+
+#contact-form h1 {
+    color: var(--main-bg-color);
+    font-size: 31px;
+    padding-bottom: 20px;
+}
+
+#contact-form p {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.contact-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 0 0 0;
+    flex-direction: column;
+}
+
+.map {
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    margin-top: 17px;
+}
+
+
+/* /Contact Meida */
