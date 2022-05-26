@@ -140,6 +140,10 @@ nav {
     margin: 12px 0px 10px 0px;
 }
 
+.banner-text .btn {
+    padding: 5px 24px;
+}
+
 .btn {
     background-color: var(--btn-bg-color);
     color: white;
@@ -673,7 +677,7 @@ nav {
     border: 1px solid rgb(236, 226, 226);
     margin-left: 7px;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.5s !important;
     padding: 15px;
 }
 
